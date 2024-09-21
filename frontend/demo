@@ -1,0 +1,66 @@
+/frontend/
+│
+├── /lib/                         # Main Flutter app directory
+│   ├── /models/                  # Data models
+│   │   ├── __init__.dart         # Initialize the models package
+│   │   ├── user.dart             # User model
+│   │   ├── post.dart             # Post model
+│   │   ├── comment.dart          # Comment model
+│   │   ├── like.dart             # Like model
+│   │   ├── report.dart           # Report model
+│   │   ├── vote.dart             # Vote model
+│   │   ├── notification.dart      # Notification model
+│   │   ├── ai_insight.dart       # AI insight model
+│   │   ├── alert.dart            # Alert model
+│   │   ├── blockchain.dart        # Model for blockchain data
+│   │
+│   ├── /services/                # API interaction services
+│   │   ├── __init__.dart         # Initialize the services package
+│   │   ├── auth_service.dart     # Authentication service
+│   │   ├── post_service.dart     # Post service
+│   │   ├── comment_service.dart  # Comment service
+│   │   ├── like_service.dart     # Like service
+│   │   ├── report_service.dart   # Report service
+│   │   ├── vote_service.dart     # Vote service
+│   │   ├── notification_service.dart  # Notification service
+│   │   ├── ai_insight_service.dart # AI insight service
+│   │   ├── alert_service.dart    # Alert service
+│   │   ├── blockchain_service.dart # Service for blockchain interactions
+│   │
+│   ├── /screens/                 # UI screens
+│   │   ├── __init__.dart         # Initialize the screens package
+│   │   ├── login_screen.dart     # Login screen
+│   │   ├── registration_screen.dart  # Registration screen
+│   │   ├── home_screen.dart      # Home screen with posts
+│   │   ├── post_detail_screen.dart  # Detailed view of a post (likes, comments)
+│   │   ├── report_screen.dart    # Reporting inappropriate content
+│   │   ├── notifications_screen.dart # User notifications
+│   │   ├── ai_insight_screen.dart # AI insights display
+│   │   ├── voting_screen.dart    # Voting for featured stories
+│   │   ├── alert_screen.dart     # Alert police/healthcare services
+│   │   ├── blockchain_screen.dart # Screen for blockchain verification and data
+│   │
+│   ├── /widgets/                 # Reusable UI components
+│   │   ├── __init__.dart         # Initialize the widgets package
+│   │   ├── comment_card.dart     # Widget to display individual comments
+│   │   ├── like_button.dart       # Widget for liking/unliking posts
+│   │   ├── notification_card.dart # Widget to display notifications
+│   │   ├── post_card.dart         # Widget to display posts
+│   │   ├── ai_insight_card.dart   # Widget to display AI insights
+│   │   ├── blockchain_card.dart    # Widget to display blockchain-related info
+│   │
+│   ├── /utils/                   # Utility functions
+│   │   ├── constants.dart         # App constants
+│   │   ├── theme.dart             # Theme configuration
+│   │   ├── validators.dart         # Input validation functions
+│   │   ├── notification_utils.dart  # Utility functions for notifications
+│   │
+│   ├── main.dart                 # Entry point for Flutter app
+│   ├── routes.dart               # Route configuration
+│   └── app_localizations.dart     # Localization and internationalization support
+│
+├── pubspec.yaml                  # Flutter project configuration
+├── pubspec.lock                  # Dependency lock file
+├── android/                      # Android platform-specific files
+├── ios/                          # iOS platform-specific files
+└── README.md                     # Project documentation

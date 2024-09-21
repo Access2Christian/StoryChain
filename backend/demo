@@ -1,0 +1,73 @@
+/backend/
+│
+├── /app/                         # Main Django app
+│   ├── /migrations/              # Database migrations
+│   ├── /models/                  # Data models
+│   │   ├── __init__.py           # Initialize the models package
+│   │   ├── user.py               # User model (with roles and permissions)
+│   │   ├── post.py               # Post model
+│   │   ├── comment.py            # Comment model
+│   │   ├── like.py               # Like model
+│   │   ├── report.py             # Report model for flagged content
+│   │   ├── vote.py               # Vote model for featured stories
+│   │   ├── notification.py        # Notification model for alerts
+│   │   ├── ai_insight.py         # Model for AI-driven insights
+│   │   ├── alert.py              # Model for emergency alerts
+│   │   ├── blockchain_data.py     # Model for storing blockchain-related data
+│   │
+│   ├── /views/                   # View functions
+│   │   ├── __init__.py           # Initialize the views package
+│   │   ├── auth_views.py         # Authentication-related views
+│   │   ├── post_views.py         # Views for post handling
+│   │   ├── comment_views.py      # Views for handling comments
+│   │   ├── like_views.py         # Views for likes
+│   │   ├── report_views.py       # Views for reporting content
+│   │   ├── vote_views.py         # Views for voting
+│   │   ├── notification_views.py  # Views for notifications
+│   │   ├── ai_insight_views.py   # Views for AI insights
+│   │   ├── alert_views.py        # Views for emergency alerts
+│   │   ├── blockchain_views.py    # Views for blockchain interactions
+│   │
+│   ├── /serializers/             # Serializers for API endpoints
+│   │   ├── __init__.py           # Initialize the serializers package
+│   │   ├── user_serializer.py     # User serializer
+│   │   ├── post_serializer.py     # Post serializer
+│   │   ├── comment_serializer.py  # Comment serializer
+│   │   ├── like_serializer.py     # Like serializer
+│   │   ├── report_serializer.py   # Report serializer
+│   │   ├── vote_serializer.py     # Vote serializer
+│   │   ├── notification_serializer.py  # Notification serializer
+│   │   ├── ai_insight_serializer.py # Serializer for AI insights
+│   │   ├── alert_serializer.py    # Serializer for alerts
+│   │   ├── blockchain_serializer.py  # Serializer for blockchain data
+│   │
+│   ├── /urls/                    # URL routing
+│   │   ├── __init__.py           # Initialize the URLs package
+│   │   ├── auth_urls.py          # Authentication routes
+│   │   ├── post_urls.py          # Post-related routes
+│   │   ├── comment_urls.py       # Comment-related routes
+│   │   ├── like_urls.py          # Like-related routes
+│   │   ├── report_urls.py        # Report-related routes
+│   │   ├── vote_urls.py          # Vote-related routes
+│   │   ├── notification_urls.py   # Notification routes
+│   │   ├── ai_insight_urls.py    # AI insight routes
+│   │   ├── alert_urls.py         # Alert routes
+│   │   ├── blockchain_urls.py      # Routes for blockchain interactions
+│   │
+│   ├── /tests/                   # Test cases
+│   │   ├── __init__.py           # Initialize the tests package
+│   │   ├── test_models.py         # Unit tests for models
+│   │   ├── test_views.py          # Unit tests for views
+│   │   ├── test_serializers.py    # Unit tests for serializers
+│   │   ├── test_urls.py           # Unit tests for URLs
+│   │   ├── test_integration.py     # Integration tests for complete workflows
+│   │   ├── test_blockchain.py     # Tests for blockchain interactions
+│   │
+│   ├── settings.py               # Project settings
+│   ├── urls.py                   # Main URL configuration
+│   ├── wsgi.py                   # WSGI entry point
+│
+├── manage.py                     # Django management script
+├── requirements.txt              # Dependencies for the project
+├── .env                          # Environment variables
+└── README.md                     # Project documentation
