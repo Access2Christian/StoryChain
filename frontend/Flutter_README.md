@@ -1,4 +1,4 @@
- **README.md** files for the frontend, 
+ **README.md** files for the frontend, customized for your project: 
 
 
 
